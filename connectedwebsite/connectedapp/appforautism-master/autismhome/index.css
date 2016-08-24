@@ -1,0 +1,109 @@
+#header{
+    text-align:center;
+   background-color:#DCDCDC;
+   background-image:url("http://www.recettes-de-cuisines.com/wp-content/plugins/wp-o-matic/cache/7b51d_photodune-2487584-white-wood-background-m.jpg");
+   margin:0;
+    
+    width:100%;
+}
+#header img{
+   
+height:15%; 
+   width:100;
+}
+body{
+margin:0;
+padding:0;
+background-color:#DCB579; 
+}
+
+h1{
+    margin:0;
+	padding:0;
+}
+h2{
+    text-align:center;
+}
+
+p {
+    margin:0;
+    text-align:center;
+}
+
+#down{
+    height:15px;
+    margin:0;
+    text-align:center;
+ 
+}
+.circles{
+    padding-top: 8%;
+    padding-bottom: 210px;
+    display: inline-block; 
+    text-decoration:none;
+    width: 100%;
+	height: 25vh;
+    background-image: url("http://www.thebourbonbuddy.com/wp-content/uploads/2016/03/white-wash-wood-background-bb-bwhite-washed-woodb-floor-bb.jpg");
+    
+}
+
+.circles img:hover{
+	max-width: 80%;
+	/*height:40%; */
+}
+
+.circles img{
+    max-width: 50%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#about{
+background-color:#DCB579;
+    margin:0;
+    padding-bottom:5%;
+    padding-top:2%;
+    font-size: 30px; 
+    opacity:1.5;
+}
+#about img{
+    display 
+}
+
+.topic{
+	float: left;
+    width: 24.2vw;
+    height: 75px;
+	font-size: 3vw;
+	
+	font-family: 'Baloo Chettan', cursive;
+}
+#tips{
+	color: #99003d;
+}
+#chat{
+	color: #99003d;
+}
+#me{
+	color: #99003d;
+}
+#help{
+	color: #99003d;
+}
+h2{
+    color:#99003d;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+

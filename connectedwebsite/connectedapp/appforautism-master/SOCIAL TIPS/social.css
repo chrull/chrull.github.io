@@ -1,0 +1,200 @@
+#header{
+	text-align:center;
+   background-color:#DCDCDC;
+   background-image:url("http://www.recettes-de-cuisines.com/wp-content/plugins/wp-o-matic/cache/7b51d_photodune-2487584-white-wood-background-m.jpg");
+   margin:0;
+    height:15%;
+    width:100%;
+}
+#header img{
+   
+	height:15%; 
+   width:auto;
+}
+a{
+   
+}
+
+body{
+background-color:#DCB579;
+	margin:0;
+	padding:0;
+}
+p{
+	display: inline-block;
+	padding: 20px;
+    font-size: 40px; 
+	color: white; 
+    border-radius: 25px;
+	vertical-align: bottom;
+	margin-left: 10px;
+	width: 500px;
+    height: 300px;
+}
+
+
+
+img {
+	width:304px;
+	height:228px;
+	margin-left: 40%;
+}
+
+
+#rcorners1 {
+    background: #ffccff;
+    
+}
+
+#rcorners2 {
+    background: #ff99ff;
+    
+}
+
+#rcorners3 {
+    background:#ff66ff ;
+    
+	
+	
+}
+
+#rcorners4 {
+    background:#9900cc ;
+    
+	
+}
+
+#rcorners5 {
+    background: #d966ff;
+    
+}
+
+#rcorners6 {
+    background:#f2ccff ;
+   
+}
+
+#rcorners7 {
+    background:#ccffcc ;
+    
+}
+
+#rcorners8 {
+    background: #0099ff ;
+    
+}
+
+#rcorners9 {
+    background:#00004d;
+    
+}
+
+#rcorners10{
+    background:#061a00  ;
+    
+	
+}
+
+#rcorners11 {
+    background: #1a6600;
+   
+	
+}
+
+#rcorners12 {
+    background:#66ff33 ;
+   
+}
+
+#down{
+    height:15px;
+    margin:0;
+    text-align:center;
+ 
+}
+
+h1{
+	text-align: center;
+	color: #99003d;
+	font-size: 90px; 
+}
+
+.rowOfP {
+	display: inline;
+	min-width: 100%;
+	min-height: 400px;
+	
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal p {
+display: block;
+color: black;
+font-size: 25px;
+width: 1400px;
+height: 70px;
+}
+
+button{
+padding: 10px 50px ; 
+font-size: 18px;
+background-color: #ffcc99; 
+color: white; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

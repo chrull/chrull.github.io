@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Connected </title>
+<link rel="icon" href="pictures/greatjob.gif">
+    <title> Emoji Me </title>
+    <!-- http://www.grumdrig.com/emoji-list/# -->
+    <link rel = "stylesheet" href = "css/emojistyle.css">
+    <link rel ="icon" href ="../autismhome/pictures/icon.png">
+
+</head>
+
+<body>
+	<div id="header"> 
+        
+        <!-- Make the learnmore.png smaller -->
+       <a href="../autismhome/index.html">
+       <img id="down" src="pictures/connect.png" >
+       <a/>
+     </div>
+<h1> EMOJI ME </h1>
+<h2> <i> In this game you will learn to recognize people's facial expressions.
+As you move throughout the questions, you will earn virtual stickers 
+every time you get the right emoji. </i> </h2>
+<h3> Click the emoji that looks surprised. </h3>
+
+<div id="emoji">
+<!-- smiley face-->
+<h1 id="smile" > &#x1f603;  </h1>
+<!-- dissapointed face-->
+<h1 id="disapointed" > &#x1f61e; </h1>
+<!-- angry face-->
+<h1 id="anger" > &#x1f620; </h1>
+<!-- surprised face-->
+<h1 id="surprise" onclick="surpriseFunction()"> &#x1f632; </h1>
+</div>
+
+
+<h3> Click the emoji that looks happy. </h3>
+
+<div id="emoji">
+<!-- smiley face-->
+<h1 id="smile" onclick="smileFunction()"> &#x1f603;  </h1>
+<!-- dissapointed face-->
+<h1 id="disapointed" > &#x1f61e; </h1>
+<!-- angry face-->
+<h1 id="anger" > &#x1f620; </h1>
+<!-- surprised face-->
+<h1 id="surprise" > &#x1f632; </h1>
+</div>
+
+<h3> Click the emoji that looks angry. </h3>
+
+<div id="emoji">
+<!-- smiley face-->
+<h1 id="smile" > &#x1f603;  </h1>
+<!-- dissapointed face-->
+<h1 id="disapointed" > &#x1f61e; </h1>
+<!-- angry face-->
+<h1 id="anger" onclick="angryFunction()"> &#x1f620; </h1>
+<!-- surprised face-->
+<h1 id="surprise" > &#x1f632; </h1>
+</div>
+
+<h3> Click the emoji that looks disappointed. </h3>
+
+<div id="emoji">
+<!-- smiley face-->
+<h1 id="smile" > &#x1f603;  </h1>
+<!-- dissapointed face-->
+<h1 id="disapointed" onclick="disappointedFunction()"> &#x1f61e; </h1>
+<!-- angry face-->
+<h1 id="anger" > &#x1f620; </h1>
+<!-- surprised face-->
+<h1 id="surprise" > &#x1f632; </h1>
+</div>
+
+
+
+
+
+
+
+<br>
+<br>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Riddle Me</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    <p>Riddle ME:
+	<br>
+	I don't have eyes, but once I did see. Once I had thoughts, but now I'm white and empty.</p>
+	<input type="text" id="text"> 
+	<button type="button" id="submit" onclick="check();">submit</button>
+	<br>
+	<div id="answer"></div>
+  </div>
+
+</div>
+
+</body>
+<script type= "text/javascript" src="script/emojimove.js"> </script>
+</html>

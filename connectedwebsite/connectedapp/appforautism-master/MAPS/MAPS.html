@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title> Friendly Places </title>
+    
+    
+    
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="MAP.css">
+	<script async defer
+      src="https://maps.googleapis.com/maps/api/js?&callback=initMap">
+    </script>
+	    <link rel ="icon" href ="../autismhome/pictures/icon.png">
+
+  </head>
+  <body>
+	<div id="header"> 
+        
+        <!-- Make the learnmore.png smaller -->
+       <a href="../autismhome/index.html">
+      <center> <img id="down" src="pictures/connect.png" alt="connect"> </center>
+       <a/>
+     </div>
+	<h1>FRIENDLY PLACES </h1> 
+    		<p class= "this"> This icon is designed to show organizations that support or aide people with Autism. There are several organizations on the map. Click on the marker to find a name, address, and phone number. Their websites will hopefully help with any more questions you have. </p> 
+
+    <div id="map"></div>
+	
+	<br>
+	
+		<p class= "this"> Included Organizations </p> 
+        <p> <a href="http://www.nyc4a.org/"> New York Center for Autism Charter School </a> </p>
+        <p> <a href="http://www.nyc4a.org/">New York Collaborates for Autism </a> </p>
+        <p> <a href="https://www.autismspeaks.org/"> Autism Speaks </a> </p>
+        <p> <a href="https://www.brooklynautismcenter.org/">Brooklyn Autism Center </a></p>
+        <p> <a href="http://www.qsac.com/">Quality Services-Autism Comm </a></p>
+        <p> <a href="http://nyfac.org/">New York Families for Autistic Children </a></p>
+        
+	
+	<!-- Footer -->
+<br>
+<br>
+<br>
+	
+	<!-- Trigger/Open The Modal -->
+<button id="myBtn">Riddle Me</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    <p>Riddle ME:
+	<br>
+	The more you take, the more you leave behind. What am I?</p>
+	<input type="text" id="text"> 
+	<button type="button" id="submit" onclick="check();">submit</button>
+	<br>
+	<div id="answer"></div>
+  </div>
+
+</div>
+	
+    
+  </body>
+  <script src="MAP.js"></script>
+</html>

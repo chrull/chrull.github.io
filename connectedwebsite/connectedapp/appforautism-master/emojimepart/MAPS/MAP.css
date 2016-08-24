@@ -1,0 +1,29 @@
+body{
+	background-image: url("board2.jpg");
+	width:100%;
+	height: 100%
+}
+#map {
+	     width:100%;
+		 height: 500px;
+		 background-color:grey;
+		 
+}
+h1{
+	color: #ff6699;
+	text-align: center;
+	font-size: 250%; 
+	
+}
+
+#this{
+	color: #9900ff;
+	text-align: center; 
+	font-size: 300% ;
+}
+
+#we{
+	color: #ff99ff ;
+	text-align: right; 
+	font-size: 200%; 
+}
